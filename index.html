@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"><!--UTF8: Muestras caracteres  --> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- -->
+    <link rel="stylesheet" href="./style.css"><!---->
+    <title>listas</title>
+  </head>
+  <body>
+
+    <h1>Asignación listas html</h1>
+
+    <h3>Alimentos favoritos</h3>
+
+    <ul>
+      <li>Tomate</li>
+      <li>Harina</li>
+      <li>Toallin</li>
+      <li>Café</li>
+      <li>Cebolla</li>
+
+    </ul>
+
+    <h3>Tareas por realizar hoy</h3>
+
+    <ol>
+      <li>Cocinar</li>
+      <li>Lavar ropa</li>
+      <li>Pasear el perro</li>
+      <li>Ordenar el cuarto</li>
+    </ol>
+
+    <h3>Lugares que me gustaria visitar algun dia</h3>
+
+    <ul>
+      <li>Roma</li>
+      <li>Venecia</li>
+      <li>Colonia tovar</li>
+      <li>Puertas amarillas</li>
+    </ul>
+
+    <h3>Juegos favoritos</h3>
+    <ol>
+      <li>Mortal kombat</li>
+      <li>Punch out</li>
+      <li>Desert storm</li>
+      <li>Crash Bandicoot</li>
+      <li>Counter Strike</li>
+    </ol>
+
+    <h3>Nesting a list</h3>
+    <ul>
+      <li>fist item</li>
+      <li>
+      Second item
+      <!-- Look, the closing </li> is not placed here! -->
+      <ul>
+        <li>Second item firts subitem</li>
+        <li>
+          Second item Second subitem
+        <!-- Same for the second nested unordered list -->
+        <ul>
+          <li>second item second subitem firts sub-subitem</li>
+          <li>second item second subitem second sub-subitem</li>
+          <li>second item second subitem third sub-subitem</li>
+        </ul>
+        </li>
+        <!-- Closing </li> tag for the li that contains the third unordered -->
+        <li>second item third subitem</li>
+      </ul>
+      <!--Here  is closing </li> tag -->
+    </li>
+    <li>third item</li>
+    </ul>
+
+<h3> list width style</h3>
+
+    <ol>
+      <li>Milk</li>
+      <li>
+        cheese
+        <ol reversed> 
+          <li>Blue cheese</li>
+          <li>Feta</li>
+          <li>
+            <ol>
+              <li>another list element</li>
+            </ol>
+        </li>
+        </ul>
+      </li>
+    </ol>
+
+    <ul>
+      <li>first item</li>
+      <li>
+        second item
+      <!--Look the closing <li> tag is not placed here!-->
+        <ol type="i">
+          <li>second item first subitem</li>
+          <li>second item second subitem</li>
+          <li>second item third subitem</li>
+        </ol>   
+        <!--Here is the closing </li> -->   
+      </li>
+      <li>Third item</li>
+    </ol>
+
+    <h3>Description list</h3>
+    <dl>
+      <dt>study</dt>
+      <dd>the devotion of time</dd>
+      <dt>desing</dt>
+      <dd>a plant or drawing</dd>
+      <dd>purpose,planing</dd>
+      <dt>business</dt>
+      <dt>work</dt>
+      <dd>A person</dd>
+    </dl>
+
+    <a href="./lists-with-styles.html">lists with styles</a>
+  </body>
+</html>
